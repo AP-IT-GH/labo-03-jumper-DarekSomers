@@ -15,9 +15,9 @@ Het andere object is de JumpTest. Hierin gebeurt alles dat met het eigenlijke te
 ![](./Images/JumpTest-overview.png)
 
 Geef de Agent eerst het JumpAgent script (Als je dit niet doet zal er automatisch een standaard script worden gegenereerd bij de volgende stappen. Dit kan voor verwarring en problemen zorgen en zal dan eerst moeten worden verwijderd). Voeg dan de 'Decision Requester' en 'Behavior Parameters' componenten toe.
-![](Images%5CDR-BP_config.png)
+![](./Images/DR-BP_config.png)
 Geef vervolgens de agent twee 'Ray Perception Sensor 3D' componenten. Deze geven de mogelijkheid aan de agent om de obstakels te zien. Het is aangeraden om eerst twee lege objecten te maken waarin je deze componenten steekt, dit laat toe de rays te draaien naar de richting naar keuze. Zorg dat de richting van elk ray object gelijk wordt gesteld met één van de planes.  Eén enkele straal per ray object is voldoende.
-![](Images%5Cray-config.png)
+![](./Images/ray-config.png)
 
 De twee finish object moeten allebei een hitbox krijgen die als trigger dient. Zo kan er gechecked worden waneer een obstakel voorbij de speler is geraakt en de episode succesvol kan worden beëindigd. 
 
