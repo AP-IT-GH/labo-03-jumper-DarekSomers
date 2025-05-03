@@ -166,3 +166,7 @@ Een variatie op dit script heeft een lichtjes ander beloningsuitdeling.
 Bij deze alternatieve code wordt de agent enkel afgestraft als hij weldegelijk springt. In tegenstelling tot het vorige script, waar de afstraffing gebeurt telkens die een spring input geeft.
 
 Uit testen is wel duidelijk dat het eerste script aanzienlijk betere resultaten levert. Maar met meer tijd en aanpassingen zou dit verschil mogelijks kleiner kunnen gemaakt worden.
+
+De grijze lijn toont de eerste versie, de blauwe de tweede.
+
+![](Images/TensorBoard-results.png)
