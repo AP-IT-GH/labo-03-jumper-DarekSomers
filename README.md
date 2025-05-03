@@ -12,7 +12,7 @@ Om de scene te maken moeten een aantal object worden toegevoegd. Buiten de stand
 Het eerste is GlobalGravity. Hierop wordt later een script geplaatst die de globale zwaartekracht van de scene bepaalt. 
 
 Het andere object is de JumpTest. Hierin gebeurt alles dat met het eigenlijke testen te maken heeft. De nodige objecten zijn: twee planes in kruisvorm, een cube (de agent), twee lege objecten aan bijde uiteinden van de planes (Finish) en tot slot een lange balk (het obstakel).
-![](Images%5CJumpTest-overview.png)
+![](./Images/JumpTest-overview.png)
 
 Geef de Agent eerst het JumpAgent script (Als je dit niet doet zal er automatisch een standaard script worden gegenereerd bij de volgende stappen. Dit kan voor verwarring en problemen zorgen en zal dan eerst moeten worden verwijderd). Voeg dan de 'Decision Requester' en 'Behavior Parameters' componenten toe.
 ![](Images%5CDR-BP_config.png)
