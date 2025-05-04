@@ -22,9 +22,9 @@ Geef vervolgens de agent twee 'Ray Perception Sensor 3D' componenten. Deze geven
 
 ![](./Images/ray-config.png)
 
-De twee finish object moeten allebei een hitbox krijgen die als trigger dient. Zo kan er gechecked worden waneer een obstakel voorbij de speler is geraakt en de episode succesvol kan worden beëindigd. 
+De twee finish object moeten allebei een hitbox krijgen die als trigger dient. Maak ook een nieuwe 'layer' aan (bv Finish) en geef deze aan de Finish objecten. Zo kan er gechecked worden waneer een obstakel voorbij de speler is geraakt en de episode succesvol kan worden beëindigd. 
 
-Het obstakel object kan best ergens geplaatst worden waar het niet in de weg staat (Onder de planes is aangeraden).
+Het obstakel object kan best ergens geplaatst worden waar het niet in de weg staat (Onder de planes is aangeraden). Net als bij de Finish objecten maak je hier een nieuwe layer aan (bv Obstacle).
 
 ## Scripts
 Er zijn drie scripts voor dit project. GravityController en ObstacleChecker zijn vrij simpel.
